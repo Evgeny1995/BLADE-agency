@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Roboto light";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Roboto light"), local("Roboto light"), url("../fonts/roboto-v19-cyrillic_latin-300.woff2") format("woff2"), url("../fonts/roboto-v19-cyrillic_latin-300.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Roboto"), local("Roboto"), url("../fonts/roboto-v19-cyrillic_latin-regular.woff2") format("woff2"), url("../fonts/roboto-v19-cyrillic_latin-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Roboto Bold"), local("Roboto Bold"), url("../fonts/roboto-v19-cyrillic_latin-700.woff2") format("woff2"), url("../fonts/roboto-v19-cyrillic_latin-700.woff") format("woff");
+}
