@@ -11,6 +11,7 @@ const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const csso = require('gulp-csso');
 const browserSync = require('browser-sync').get('Local Server');
+const wait = require('gulp-wait');
 
 const isDev = !process.env.NODE_ENV;
 
@@ -20,6 +21,7 @@ task('styles', () => {
   let pluginsPostcss = [autoprefixer()];
 
   return src(`${settings.paths.src.styles}style.scss`)
+    .pipe(wait(200))
     .pipe(gulpIf(isDev, sourcemaps.init()))
     .pipe(plumber())
     .pipe(sass())
