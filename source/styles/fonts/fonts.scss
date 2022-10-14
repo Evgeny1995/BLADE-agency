@@ -1,21 +1,21 @@
 @font-face {
-  font-family: "Roboto light";
+  font-family: "Lato regular";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local("Roboto light"), local("Roboto light"), url("../fonts/roboto-v19-cyrillic_latin-300.woff2") format("woff2"), url("../fonts/roboto-v19-cyrillic_latin-300.woff") format("woff");
+  src: local("Lato regular"), local("Lato regular"), url("../source/fonts/latoregular.woff2") format("woff2"), url("../source/fonts/latoregular.woff2") format("woff");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Lato medium";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Roboto"), local("Roboto"), url("../fonts/roboto-v19-cyrillic_latin-regular.woff2") format("woff2"), url("../fonts/roboto-v19-cyrillic_latin-regular.woff") format("woff");
+  src: local("Lato medium"), local("Lato medium"), url("../source/fonts/latomedium.woff2") format("woff2"), url("../source/fonts/latomedium.woff2") format("woff");
 }
 @font-face {
-  font-family: "Roboto Bold";
+  font-family: "Lato Bold";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("Roboto Bold"), local("Roboto Bold"), url("../fonts/roboto-v19-cyrillic_latin-700.woff2") format("woff2"), url("../fonts/roboto-v19-cyrillic_latin-700.woff") format("woff");
+  src: local("Lato Bold"), local("Lato Bold"), url("../source/fonts/latobold.woff2") format("woff2"), url("../source/fonts/latobold.woff2") format("woff");
 }

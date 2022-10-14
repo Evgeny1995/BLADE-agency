@@ -1,17 +1,22 @@
+// переменные
+@import "./variables.scss";
+
+
 // глобальные стили
 
+
 @import "global.scss";
-@import "./mixins/global.scss";
+@import "mixins/global.scss";
 
 // шрифты
 
-@import "./fonts/fonts.scss";
+@import "fonts/fonts.scss";
 
 // анимации
 
-@import "./animations/animate.scss";
+@import "animations/animate.scss";
 
 // стили блоков
 
-@import "./style_components/header.scss";
-@import "./style_components/footer.scss";
+@import "components/header.scss";
+@import "components/footer.scss";
