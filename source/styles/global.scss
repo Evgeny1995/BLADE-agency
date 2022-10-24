@@ -25,6 +25,7 @@ ul {
 
 * {
   -webkit-appearance: none;
+  box-sizing: border-box;
 }
 
 a {
@@ -34,4 +35,53 @@ a {
 .simplebar-scrollbar:before {
   background: #00ff00;
   opacity: 1;
+}
+
+.btn__global {
+  width: 245px;
+  display: block;
+  height: 57px;
+  padding: 0 39px 0 0;
+  border-radius: 65px;
+  background-color: $bg-green;
+  border: none;
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: $text-col-2;
+  box-shadow: 0 0 0 4px $bg-grey, 0 0 0 5px $border-col-1;
+  margin: 0 auto;
+}
+
+.form-field__global {
+  display: block;
+  width: 279px;
+  min-height: 41px;
+  margin: 0 auto 21px auto;
+  padding: 0 0 0 28px;
+  border: none;
+  background-color: $bg-green-2;
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: $text-col-5;
+  border-radius: 65px;
+
+  ::placeholder {
+    color: $text-col-5;
+  }
+}
+
+.container {
+  max-width: 1200px;
+}
+
+@media (max-width: 720px) {
+  .container {
+    max-width: 1200px;
+  }
 }

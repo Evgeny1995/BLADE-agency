@@ -1,0 +1,226 @@
+.page-footer {
+  min-width: 320px;
+  max-width: 767px;
+  padding: 0 0 50px 0;
+  background-color: $bg-green;
+  margin: 0 auto;
+}
+
+.page-footer__wrap {
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 40px 20px 50px 20px;
+}
+
+.page-footer__logotype {
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25.2px;
+  color: $text-col-2;
+  margin: 16px auto 16px auto;
+  max-width: 170px;
+}
+
+.page-footer__nav-list {
+  margin: 16px 0 0 0;
+}
+
+.footer-nav-list-item {
+  margin: 0;
+  padding: 14px 0 0 0;
+}
+
+.footer-nav-list-item__link {
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: $text-col-2;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.page-footer__terms-list {
+  margin: 21px 0 0 0;
+  padding: 0;
+}
+
+.footer-terms-list-item {
+  margin: 23px 0 0 0;
+}
+
+.footer-terms-list-item__link {
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: $text-col-2;
+  opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+  .page-footer {
+    min-width: 768px;
+    max-width: 1923px;
+    margin: 0 auto;
+    padding: 0 0 70px 0;
+  }
+
+  .page-footer__wrap {
+    padding: 50px 111px 0px 111px;
+    margin: 43px auto 0 auto;
+    max-width: 100%;
+  }
+
+  .page-footer__logotype {
+    display: block;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: $text-col-2;
+    margin: 0 0 40px 0;
+  }
+
+  .page-footer__nav-list {
+    margin: 0 0 40px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-nav-list-item {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: $text-col-2;
+    margin: 0;
+    padding: 0 0 0 0;
+  }
+
+  .footer-nav-list-item__link {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: $text-col-2;
+    margin: 0;
+    padding: 0;
+    max-width: 210px;
+  }
+
+  .page-footer__terms-list {
+    margin: 0 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-terms-list-item {
+    margin: 0 0 0 0;
+    max-width: 38%;
+  }
+
+  .footer-terms-list-item:nth-child(2) {
+    margin: 0 105px 0 0;
+  }
+
+  .footer-terms-list-item__link {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: $text-col-2;
+    opacity: 0.5;
+  }
+}
+
+@media (min-width: 1924px) {
+  .page-footer {
+    min-width: 1924px;
+    max-width: 3480px;
+    margin: 0 auto;
+    padding: 0 0 70px 0;
+  }
+
+  .page-footer__wrap {
+    padding: 50px 653px 0px 674px;
+    margin: 43px auto 0 auto;
+    max-width: 100%;
+  }
+
+  .page-footer__logotype {
+    display: block;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: $text-col-2;
+    margin: 0 0 40px 0;
+  }
+
+  .page-footer__nav-list {
+    margin: 0 0 40px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-nav-list-item {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: $text-col-2;
+    margin: 0;
+    padding: 0 0 0 0;
+  }
+
+  .footer-nav-list-item__link {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: $text-col-2;
+    margin: 0;
+    padding: 0;
+    max-width: 210px;
+  }
+
+  .page-footer__terms-list {
+    margin: 0 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-terms-list-item {
+    margin: 0 0 0 0;
+    max-width: 38%;
+  }
+
+  .footer-terms-list-item:nth-child(2) {
+    margin: 0 105px 0 0;
+  }
+
+  .footer-terms-list-item__link {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: $text-col-2;
+    opacity: 0.5;
+  }
+}

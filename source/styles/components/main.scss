@@ -1,0 +1,1688 @@
+.page-main {
+  min-width: 320px;
+  max-width: 767px;
+  margin: 0 auto;
+  background-image: url(../../img/png/leaf-mint/leaf-Mint-2.png);
+  background-repeat: no-repeat;
+  background-position: center 122px;
+  background-size: 375.57px 298.57px;
+  background-color: $bg-grey;
+}
+
+.page-main__healthy-food {
+  padding: 53px 14px 0 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.healthy-food {
+  padding: 55px 14px 0 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.healthy-food__title {
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 26, 37px;
+  color: $text-col-3;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  max-width: 264px;
+}
+
+.healthy-food__description {
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: $text-col-3;
+  text-align: center;
+  margin: 23px 0 0 0;
+  padding: 0;
+  max-width: 260px;
+  position: relative;
+}
+
+.healthy-food__btn {
+  margin: 36px auto 0 auto;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background: url("../../img/svg/arrow-right-mob.svg") no-repeat center center;
+    width: 43px;
+    height: 43px;
+    right: 33px;
+    top: 222.5px;
+    background-color: $bg-green-1;
+    border-radius: 100%;
+  }
+}
+
+.healthy-food__slider {
+  margin: 99px 0 0 0;
+  min-height: 540px;
+}
+
+.slider-title {
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18.99px;
+  color: $text-col-3;
+  text-align: center;
+  position: relative;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.slider-container {
+  position: relative;
+
+  min-width: 320px;
+  max-width: 764px;
+  margin: 0 auto;
+}
+
+.slider-img__mob {
+  position: absolute;
+  content: "";
+  max-width: 320px;
+  max-height: 497px;
+  top: 240px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 0;
+}
+
+.slider-img__tab {
+  display: none;
+}
+
+.slider__container {
+  min-width: 320px;
+  max-width: 767px;
+  margin: 0;
+  padding: 0;
+}
+
+.slider__btn-left {
+  border: none;
+  position: absolute;
+  top: 737px;
+  left: 14px;
+  margin: 0;
+  padding: 0;
+  background-color: $bg-grey;
+  border-radius: 100%;
+}
+
+.slider__btn-right {
+  border: none;
+  position: absolute;
+  top: 737px;
+  right: 14px;
+  margin: 0;
+  padding: 0;
+  background-color: $bg-grey;
+  border-radius: 100%;
+}
+
+.benefits-wrap {
+  min-width: 320px;
+  max-width: 767px;
+  min-height: 690px;
+  margin: 0 auto;
+  background-color: $bg-green;
+}
+
+.benefits {
+  max-width: 320px;
+  padding: 1px 14px 1px 14px;
+  background-color: $bg-green;
+  min-height: 735px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.benefits-title {
+  max-width: 240px;
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: $text-col-2;
+  padding: 0;
+  margin: 57px 11px 0 0;
+}
+
+.benefits-list {
+  margin: 39px 0 0 38px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.benefits-item {
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: $text-col-2;
+  max-width: 91%;
+  margin: 0;
+}
+
+.benefits-item__description {
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: $text-col-2;
+  position: relative;
+  margin: 0 0 19px 0;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background: url("../../img/svg/check-mob-1.svg") center center no-repeat;
+    width: 12px;
+    height: 10px;
+    left: -29px;
+    top: 7px;
+  }
+}
+
+.performance-nutritionist {
+  max-width: 268px;
+  border-radius: 65px;
+  border: 4px solid $text-col-2;
+  background-color: $text-col-2;
+  margin: 11px auto 0 auto;
+  position: relative;
+  text-align: center;
+  border: 1px dashed $text-col-4;
+  box-shadow: 0 0 0 4px $text-col-2;
+  z-index: 211;
+}
+
+.page-main__performance-nutritionist__img-wrap {
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.performance-nutritionist__img_mob {
+  position: absolute;
+  top: -303px;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.performance-nutritionist__img_tab {
+  display: none;
+}
+
+.performance-nutritionist__name {
+  font-family: "Lato", "Arial", "sans-serif";
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: $text-col-1;
+  margin: 10.5px 0 1px 0;
+  z-index: 12;
+}
+
+.performance-nutritionist__description {
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: $text-col-4;
+  margin: 0 0 10.5px 0;
+}
+
+.page-main__required-products {
+  min-width: 320px;
+  max-width: 767px;
+  margin: 0 auto;
+  background-color: $bg-grey;
+}
+
+.required-products__wrap {
+  padding: 60px 14px 0 14px;
+  margin: 0 auto;
+  position: relative;
+}
+.required-products__title {
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.96px;
+  color: $bg-green;
+  text-align: center;
+  max-width: 275px;
+  margin: 0 auto 42px auto;
+}
+
+.required-products__btn-left {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 363px;
+  left: 8px;
+}
+
+.required-products__btn-left-tab {
+  display: none;
+}
+
+.required-products__btn-right {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 363px;
+  right: 8px;
+}
+
+.required-products__btn-right-tab {
+  display: none;
+}
+
+.required-products__container {
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+  background-color: $text-col-2;
+  max-width: 225px;
+  text-align: center;
+  border-radius: 5% 5% 0 0;
+}
+
+.products-container__img_mob {
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 5% 5% 0 0;
+  background-color: $bg-grey;
+}
+
+.products-container__img_tab {
+  display: none;
+}
+
+.products-container__title {
+  margin: 15px auto;
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.88px;
+}
+
+.products-container__text {
+  max-width: 187px;
+  margin: 0 auto;
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20.86px;
+  color: $text-col-4;
+}
+
+.shipping-benefits {
+  min-width: 320px;
+  max-width: 767px;
+  margin: 470px auto 0 auto;
+  background-color: $bg-grey;
+  text-align: center;
+  padding: 57px 0 80px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.shipping-benefits__img_mob {
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  top: -414px;
+  left: 0;
+  right: 0;
+}
+
+.shipping-benefits__img_tab {
+  display: none;
+}
+
+.shipping-benefits__content {
+  margin: 0 auto;
+  padding: 0 14px 0 14px;
+  position: relative;
+  z-index: 1;
+}
+
+.shipping-benefits-content__title {
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21.7px;
+  line-height: 25.96px;
+  color: $bg-green;
+  margin: 0 auto 38px auto;
+  max-width: 292px;
+  text-align: left;
+  z-index: 4;
+}
+
+.shipping-benefits-content__list {
+  padding: 0 0 0 47px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 auto;
+  width: 282px;
+  text-align: left;
+}
+
+.shiping-content-item__svg {
+  position: absolute;
+  top: -35px;
+  left: -60px;
+}
+
+.shiping-content-list__item {
+  margin: 0 0 25px 0;
+  padding: 0;
+  max-width: 244px;
+  position: relative;
+}
+
+.shiping-content-item__title {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.88px;
+  color: $text-col-1;
+}
+
+.shiping-content-item__text {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.52px;
+  color: $text-col-1;
+  max-width: 96%;
+}
+
+.page-main__instagram-preview {
+  max-width: 767px;
+  min-height: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.probnik {
+  height: 478px;
+  overflow: hidden;
+  position: relative;
+}
+
+.example {
+  position: absolute;
+  margin: 0 auto;
+  height: 478px;
+  width: 550px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.instagram-preview__img_mob {
+  max-width: 100%;
+  height: 478px;
+}
+
+.instagram-preview__img_tab {
+  display: none;
+}
+
+.instagram-preview__title {
+  text-align: center;
+  margin: 0 auto 16px auto;
+  padding: 0;
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.96px;
+  color: $bg-green;
+  max-width: 158px;
+}
+
+.instagram-preview__text {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.52px;
+  color: $text-col-1;
+  max-width: 245px;
+}
+
+.instagram-preview__link {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.52px;
+  color: $text-col-1;
+  max-width: 245px;
+  border-bottom: 1px solid $text-col-1;
+}
+
+.page-main__form-menu-wrap {
+  min-width: 320px;
+  max-width: 767px;
+  margin: 0 auto 76px auto;
+  text-align: center;
+}
+
+.page-main__form-menu {
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+  max-width: 320px;
+  position: relative;
+}
+
+.form-menu__title {
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.96px;
+  color: $bg-green;
+  max-width: 237px;
+  margin: 0 auto 15px auto;
+}
+
+.form-menu__text {
+  font-family: "Lato", "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.52px;
+  color: $text-col-1;
+  max-width: 287px;
+  margin: 0 auto 38px auto;
+}
+
+// .form-menu__name {
+// }
+
+// .form-menu__phone {
+// }
+
+.login-form__button {
+  &::before {
+    position: absolute;
+    content: "";
+    background: url("../../img/svg/arrow-right-mob.svg") no-repeat center center;
+    width: 43px;
+    height: 43px;
+    right: 49px;
+    top: 268.5px;
+    background-color: $bg-green-1;
+    border-radius: 100%;
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////TABLET//////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+@media (min-width: 768px) {
+  .page-main {
+    min-width: 768px;
+    max-width: 1923px;
+    margin: 0 auto;
+    background-image: none;
+    background-color: $bg-grey;
+  }
+
+  .page-main__healthy-food {
+    padding: 53px 111px 0 111px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .healthy-food {
+    padding: 55px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .healthy-food__title {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 33.76px;
+    color: $text-col-3;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    max-width: 324px;
+  }
+
+  .healthy-food__description {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: $text-col-3;
+    text-align: center;
+    margin: 29px 0 0 0;
+    padding: 0;
+    max-width: 260px;
+    position: relative;
+  }
+
+  .healthy-food__btn {
+    margin: 52px auto 0 auto;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background: url("../../img/svg/arrow-right-mob.svg") no-repeat center
+        center;
+      width: 43px;
+      height: 43px;
+      right: 50px;
+      top: 260.5px;
+      background-color: $bg-green-1;
+      border-radius: 100%;
+    }
+  }
+
+  .healthy-food__slider {
+    margin: 99px 0 0 0;
+    min-height: 660px;
+  }
+
+  .slider-title {
+    display: none;
+  }
+  .slider-container {
+    min-width: 768px;
+    max-width: 1923px;
+    margin: 0 auto;
+  }
+
+  .slider-img__mob {
+    display: none;
+  }
+
+  .slider-img__tab {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    z-index: 0;
+  }
+
+  .slider__container {
+    min-width: 768px;
+    max-width: 1923px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .slider__btn-left {
+    display: none;
+  }
+
+  .slider__btn-right {
+    display: none;
+  }
+
+  .benefits-wrap {
+    min-width: 768px;
+    max-width: 1923px;
+    min-height: 830px;
+    margin: 0 auto;
+    background-color: $bg-green;
+  }
+
+  .benefits {
+    max-width: 768px;
+    padding: 1px 111px 1px 111px;
+    background-color: $bg-green;
+    min-height: 830px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .benefits-title {
+    max-width: 446px;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 48.38px;
+    color: $text-col-2;
+    padding: 0;
+    margin: 50px 11px 0 0;
+  }
+
+  .benefits-list {
+    margin: 39px 0 0 0;
+    padding: 0 17px 0 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .benefits-item {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: $text-col-2;
+    max-width: 350px;
+    margin: 0;
+  }
+
+  .benefits-item__description {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: $text-col-2;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background: url("../../img/svg/check-mob-1.svg") center center no-repeat;
+      width: 12px;
+      height: 10px;
+      left: -33px;
+      top: 7px;
+    }
+  }
+
+  .performance-nutritionist {
+    max-width: 289px;
+  }
+
+  .page-main__performance-nutritionist__img-wrap {
+    width: 538px;
+  }
+
+  .performance-nutritionist__img_mob {
+    display: none;
+  }
+
+  .performance-nutritionist__img_tab {
+    display: inline-block;
+    position: absolute;
+    top: -399px;
+    left: 42px;
+    z-index: 0;
+  }
+
+  .performance-nutritionist__name {
+    font-family: "Lato", "Arial", "sans-serif";
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    color: $text-col-1;
+    margin: 10.5px 0 1px 0;
+    z-index: 12;
+  }
+
+  .performance-nutritionist__description {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: $text-col-4;
+    margin: 0 0 10.5px 0;
+  }
+
+  .page-main__required-products {
+    min-width: 768px;
+    max-width: 1923px;
+    margin: 0 auto;
+    background-color: $bg-grey;
+  }
+
+  .required-products__wrap {
+    padding: 60px 50px 0 50px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .required-products__title {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 48.38px;
+    color: $bg-green;
+    text-align: center;
+    max-width: 511px;
+    margin: 0 auto 48px auto;
+  }
+
+  .required-products__btn-left {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 377px;
+    left: 21px;
+  }
+
+  .required-products__btn-left-mob {
+    display: none;
+  }
+
+  .required-products__btn-left-tab {
+    display: block;
+  }
+
+  .required-products__btn-right {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 377px;
+    right: 21px;
+  }
+
+  .required-products__btn-right-mob {
+    display: none;
+  }
+
+  .required-products__btn-right-tab {
+    display: block;
+  }
+
+  .required-products__container {
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+    background-color: $text-col-2;
+    max-width: 663px;
+    text-align: center;
+    border-radius: 0;
+  }
+
+  .products-container__img_mob {
+    display: none;
+  }
+
+  .products-container__img_tab {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 0;
+    background-color: $bg-grey;
+  }
+
+  .products-container__title {
+    margin: 15px auto 12px auto;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.6px;
+  }
+
+  .products-container__text {
+    max-width: 89%;
+    margin: 0 auto;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23.84px;
+    color: $text-col-4;
+  }
+
+  .shipping-benefits {
+    min-width: 768px;
+    max-width: 1923px;
+    margin: 950px auto 0 auto;
+    background-color: $bg-grey;
+    text-align: center;
+    padding: 57px 0 80px 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .shipping-benefits__img_mob {
+    display: none;
+  }
+
+  .shipping-benefits__img_tab {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top: -900px;
+    left: 0;
+    right: 0;
+  }
+
+  .shipping-benefits__content {
+    margin: 0 auto;
+    padding: 0 14px 0 14px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .shipping-benefits-content__title {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 48.38px;
+    color: $bg-green;
+    margin: 0 auto 85px auto;
+    max-width: 550px;
+    text-align: left;
+    z-index: 4;
+  }
+
+  .shipping-benefits-content__list {
+    padding: 0 0 0 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 auto;
+    width: 493px;
+    text-align: left;
+  }
+
+  .shiping-content-item__svg {
+    position: absolute;
+    top: -35px;
+    left: -72px;
+  }
+
+  .shiping-content-list__item {
+    margin: 0 0 37px 0;
+    padding: 0;
+    max-width: 100%;
+    position: relative;
+  }
+
+  .shiping-content-item__title {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.6px;
+    color: $text-col-1;
+  }
+
+  .shiping-content-item__text {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.24px;
+    color: $text-col-1;
+    max-width: 100%;
+  }
+
+  .page-main__instagram-preview {
+
+    max-width: 1923px;
+    min-height: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    // position: relative;
+    // padding: 132px 0 0 0;
+  }
+
+  .probnik {
+    max-width: 1124px;
+    height: 548px;
+    position: relative;
+    margin: 0 auto;
+
+  }
+
+  .example {
+    position: absolute;
+    margin: 0 auto;
+    height: 548px;
+    width: 1124px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-48%);
+  }
+
+  .instagram-preview__img_mob {
+    display: none;
+  }
+
+  .instagram-preview__img_tab {
+     display: block;
+     max-width: 100%;
+     height: 548px;
+     margin: 0 auto;
+  }
+
+  .instagram-preview__title {
+    text-align: center;
+    margin: 0 auto 12px auto;
+    padding: 0;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 48.38px;
+    color: $bg-green;
+    max-width: 295px;
+  }
+
+  .instagram-preview__text {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.88px;
+    color: $text-col-1;
+    max-width: 415px;
+  }
+
+  .instagram-preview__link {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.52px;
+    color: $text-col-1;
+    max-width: 245px;
+    border-bottom: 1px solid $text-col-1;
+  }
+
+  .page-main__form-menu-wrap {
+    min-width: 768px;
+    max-width: 1923px;
+    margin: 0 auto 76px auto;
+    text-align: center;
+  }
+
+  .page-main__form-menu {
+    padding: 100px 15px 0 15px;
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+  }
+
+  .form-menu__title {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 48.38px;
+    color: $bg-green;
+    max-width: 443px;
+    margin: 0 auto 22px auto;
+  }
+
+  .form-menu__text {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.88px;
+    color: $text-col-1;
+    max-width: 550px;
+    margin: 0 auto 72px auto;
+  }
+
+  .form-menu__name {
+    width: 403px;
+    height: 57px;
+  }
+
+  .form-menu__phone {
+    width: 403px;
+    height: 57px;
+    position: relative;
+  }
+
+  .login-form__button {
+    &::before {
+      position: absolute;
+      content: "";
+      background: url("../../img/svg/arrow-right-mob.svg") no-repeat center
+        center;
+      width: 43px;
+      height: 43px;
+      right: 270px;
+      top: 471.5px;
+      background-color: $bg-green-1;
+      border-radius: 100%;
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////DESKTOP//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+@media (min-width: 1924px) {
+  .page-main {
+    min-width: 1924px;
+    max-width: 3480px;
+    margin: 0 auto;
+    background-image: none;
+    background-color: $bg-grey;
+  }
+
+  .page-main__healthy-food {
+    padding: 0 604px 0 390px;
+    display: block;
+    align-items: center;
+  }
+
+  .healthy-food {
+    padding: 55px 0 0 0;
+    display: block;
+
+    position: relative;
+  }
+
+  .healthy-food__title {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 52.75px;
+    color: $text-col-3;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    max-width: 504px;
+  }
+
+  .healthy-food__description {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 32.2px;
+    color: $text-col-3;
+    text-align: left;
+    margin: 29px 0 0 0;
+    padding: 0;
+    max-width: 350px;
+    position: relative;
+  }
+
+  .healthy-food__btn {
+    margin: 52px auto 0 auto;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background: url("../../img/svg/arrow-right-mob.svg") no-repeat center
+        center;
+      width: 43px;
+      height: 43px;
+      right: 50px;
+      top: 260.5px;
+      background-color: $bg-green-1;
+      border-radius: 100%;
+    }
+  }
+
+  .healthy-food__slider {
+    margin: 99px 0 0 0;
+    min-height: 660px;
+  }
+
+  .slider-title {
+    display: none;
+  }
+  .slider-container {
+    min-width: 1924px;
+    max-width: 3480px;
+    margin: 0 auto;
+  }
+
+  .slider-img__mob {
+    display: none;
+  }
+
+  .slider-img__tab {
+    display: none;
+  }
+
+  .slider-img__desk {
+    display: bock;
+    position: absolute;
+    width: 1796px;
+    height: 1056px;
+    top: -400px;
+    left: 0;
+    z-index: 0;
+  }
+
+  .slider__container {
+    min-width: 1924px;
+    max-width: 3480px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .slider__btn-left {
+    display: none;
+  }
+
+  .slider__btn-right {
+    display: none;
+  }
+
+  .benefits-wrap {
+    min-width: 1924px;
+    max-width: 3480px;
+    min-height: 830px;
+    margin: 0 auto;
+    background-color: $bg-green;
+  }
+
+  .benefits {
+    max-width: 768px;
+    padding: 1px 111px 1px 111px;
+    background-color: $bg-green;
+    min-height: 830px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .benefits-title {
+    max-width: 446px;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 48.38px;
+    color: $text-col-2;
+    padding: 0;
+    margin: 50px 11px 0 0;
+  }
+
+  .benefits-list {
+    margin: 39px 0 0 0;
+    padding: 0 17px 0 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .benefits-item {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: $text-col-2;
+    max-width: 350px;
+    margin: 0;
+  }
+
+  .benefits-item__description {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: $text-col-2;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background: url("../../img/svg/check-mob-1.svg") center center no-repeat;
+      width: 12px;
+      height: 10px;
+      left: -33px;
+      top: 7px;
+    }
+  }
+
+  .performance-nutritionist {
+    max-width: 289px;
+  }
+
+  .page-main__performance-nutritionist__img-wrap {
+    width: 538px;
+  }
+
+  .performance-nutritionist__img_mob {
+    display: none;
+  }
+
+  .performance-nutritionist__img_tab {
+    display: inline-block;
+    position: absolute;
+    top: -399px;
+    left: 42px;
+    z-index: 0;
+  }
+
+  .performance-nutritionist__name {
+    font-family: "Lato", "Arial", "sans-serif";
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    color: $text-col-1;
+    margin: 10.5px 0 1px 0;
+    z-index: 12;
+  }
+
+  .performance-nutritionist__description {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: $text-col-4;
+    margin: 0 0 10.5px 0;
+  }
+
+  .page-main__required-products {
+    min-width: 768px;
+    max-width: 1923px;
+    margin: 0 auto;
+    background-color: $bg-grey;
+  }
+
+  .required-products__wrap {
+    padding: 60px 50px 0 50px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .required-products__title {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 48.38px;
+    color: $bg-green;
+    text-align: center;
+    max-width: 511px;
+    margin: 0 auto 48px auto;
+  }
+
+  .required-products__btn-left {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 377px;
+    left: 21px;
+  }
+
+  .required-products__btn-left-mob {
+    display: none;
+  }
+
+  .required-products__btn-left-tab {
+    display: block;
+  }
+
+  .required-products__btn-right {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 377px;
+    right: 21px;
+  }
+
+  .required-products__btn-right-mob {
+    display: none;
+  }
+
+  .required-products__btn-right-tab {
+    display: block;
+  }
+
+  .required-products__container {
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+    background-color: $text-col-2;
+    max-width: 663px;
+    text-align: center;
+    border-radius: 0;
+  }
+
+  .products-container__img_mob {
+    display: none;
+  }
+
+  .products-container__img_tab {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 0;
+    background-color: $bg-grey;
+  }
+
+  .products-container__title {
+    margin: 15px auto 12px auto;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.6px;
+  }
+
+  .products-container__text {
+    max-width: 89%;
+    margin: 0 auto;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23.84px;
+    color: $text-col-4;
+  }
+
+  .shipping-benefits {
+    min-width: 768px;
+    max-width: 1923px;
+    margin: 950px auto 0 auto;
+    background-color: $bg-grey;
+    text-align: center;
+    padding: 57px 0 80px 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .shipping-benefits__img_mob {
+    display: none;
+  }
+
+  .shipping-benefits__img_tab {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top: -900px;
+    left: 0;
+    right: 0;
+  }
+
+  .shipping-benefits__content {
+    margin: 0 auto;
+    padding: 0 14px 0 14px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .shipping-benefits-content__title {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 48.38px;
+    color: $bg-green;
+    margin: 0 auto 85px auto;
+    max-width: 550px;
+    text-align: left;
+    z-index: 4;
+  }
+
+  .shipping-benefits-content__list {
+    padding: 0 0 0 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 auto;
+    width: 493px;
+    text-align: left;
+  }
+
+  .shiping-content-item__svg {
+    position: absolute;
+    top: -35px;
+    left: -72px;
+  }
+
+  .shiping-content-list__item {
+    margin: 0 0 37px 0;
+    padding: 0;
+    max-width: 100%;
+    position: relative;
+  }
+
+  .shiping-content-item__title {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.6px;
+    color: $text-col-1;
+  }
+
+  .shiping-content-item__text {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.24px;
+    color: $text-col-1;
+    max-width: 100%;
+  }
+
+  .page-main__instagram-preview {
+    min-width: 1924;
+    max-width: 3480px;
+    min-height: 1070px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .probnik {
+    max-width: 1972px;
+    height: 1000px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+  }
+
+  .example {
+    position: absolute;
+    margin: 0 auto;
+    height: 1070px;
+    width: 1972px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .instagram-preview__img_mob {
+    display: none;
+  }
+
+  .instagram-preview__img_tab {
+    display: none;
+  }
+
+  .instagram-preview__img_desk {
+    display: block;
+     max-width: 100%;
+     height: 548px;
+     margin: 0 auto;
+  }
+
+
+  .instagram-preview__title {
+    text-align: center;
+    margin: 0 auto 12px auto;
+    padding: 0;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 48.38px;
+    color: $bg-green;
+    max-width: 295px;
+  }
+
+  .instagram-preview__text {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.88px;
+    color: $text-col-1;
+    max-width: 415px;
+  }
+
+  .instagram-preview__link {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.52px;
+    color: $text-col-1;
+    max-width: 245px;
+    border-bottom: 1px solid $text-col-1;
+  }
+
+  .page-main__form-menu-wrap {
+    min-width: 1924px;
+    max-width: 3480px;
+    margin: 0 auto 76px auto;
+    text-align: center;
+  }
+
+  .page-main__form-menu {
+    padding: 100px 15px 0 15px;
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+  }
+
+  .form-menu__title {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 48.38px;
+    color: $bg-green;
+    max-width: 443px;
+    margin: 0 auto 22px auto;
+  }
+
+  .form-menu__text {
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.88px;
+    color: $text-col-1;
+    max-width: 550px;
+    margin: 0 auto 72px auto;
+  }
+
+  .form-menu__name {
+    width: 403px;
+    height: 57px;
+  }
+
+  .form-menu__phone {
+    width: 403px;
+    height: 57px;
+    position: relative;
+  }
+
+  .login-form__button {
+    &::before {
+      position: absolute;
+      content: "";
+      background: url("../../img/svg/arrow-right-mob.svg") no-repeat center
+        center;
+      width: 43px;
+      height: 43px;
+      right: 270px;
+      top: 471.5px;
+      background-color: $bg-green-1;
+      border-radius: 100%;
+    }
+  }
+}
