@@ -154,16 +154,7 @@
 
 
     &::before {
-      position: absolute;
-      content: "";
-      display: block;
-      background: url("./../../img/png/img-desk-bg-1.png") no-repeat,
-        linear-gradient(180deg, rgba(255, 255, 255, 0) 7.74%, #ffffff 70.85%);
-      opacity: 1;
-      width: 1924px;
-      height: 1075px;
-      right: 0;
-      top: -44px;
+      display: none;
     }
   }
 
