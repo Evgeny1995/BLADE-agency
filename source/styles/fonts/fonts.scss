@@ -1,21 +1,35 @@
 @font-face {
-  font-family: "Lato regular";
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local("Lato regular"), local("Lato regular"), url("../source/fonts/latoregular.woff2") format("woff2"), url("../source/fonts/latoregular.woff2") format("woff");
+  src: local("Lato"), local("Lato"), url("../fonts/latolight.woff2") format("woff2");
 }
 @font-face {
-  font-family: "Lato medium";
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Lato medium"), local("Lato medium"), url("../source/fonts/latomedium.woff2") format("woff2"), url("../source/fonts/latomedium.woff2") format("woff");
+  src: local("Lato"), local("Lato"), url("../fonts/latoregular.woff2") format("woff2");
 }
 @font-face {
-  font-family: "Lato Bold";
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Lato"), local("Lato"), url("../fonts/latomedium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Lato"), local("Lato"), url("../fonts/latosemibold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Lato";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("Lato Bold"), local("Lato Bold"), url("../source/fonts/latobold.woff2") format("woff2"), url("../source/fonts/latobold.woff2") format("woff");
+  src: local("Lato"), local("Lato"), url("../fonts/latobold.woff2") format("woff2");
 }

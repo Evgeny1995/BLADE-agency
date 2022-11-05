@@ -2,39 +2,38 @@
   min-width: 320px;
   max-width: 767px;
   margin: 0 auto;
-  background-image: url(../../img/png/leaf-mint/leaf-Mint-2.png);
-  background-repeat: no-repeat;
-  background-position: center 122px;
-  background-size: 375.57px 298.57px;
   background-color: $bg-grey;
 }
 
 .page-main__healthy-food {
-  padding: 53px 14px 0 14px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 100%;
+  background-image: url(./../../img/png/mob-bg-leaf.png);
+  background-repeat: no-repeat;
+  background-position: center 70px;
 }
 
 .healthy-food {
-  padding: 55px 14px 0 14px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 53px 0 55px 0;
 }
 
 .healthy-food__title {
   font-family: "Lato", "Arial", "sans-serif";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 25px;
   line-height: 26, 37px;
   color: $text-col-3;
-  text-align: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  max-width: 264px;
+  max-width: 75%;
 }
 
 .healthy-food__description {
@@ -44,15 +43,13 @@
   font-size: 16px;
   line-height: 22.4px;
   color: $text-col-3;
-  text-align: center;
-  margin: 23px 0 0 0;
+  max-width: 231px;
+  margin: 23px auto 36px auto;
   padding: 0;
-  max-width: 260px;
-  position: relative;
 }
 
 .healthy-food__btn {
-  margin: 36px auto 0 auto;
+  position: relative;
 
   &::before {
     position: absolute;
@@ -60,82 +57,286 @@
     background: url("../../img/svg/arrow-right-mob.svg") no-repeat center center;
     width: 43px;
     height: 43px;
-    right: 33px;
-    top: 222.5px;
+    right: 11px;
+    top: 7.5px;
     background-color: $bg-green-1;
     border-radius: 100%;
   }
 }
 
 .healthy-food__slider {
-  margin: 99px 0 0 0;
-  min-height: 540px;
+  width: 100%;
+  padding: 55px 0 0 0;
 }
 
-.slider-title {
+.slider__slider-title {
   font-family: "Lato", "Arial", "sans-serif";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 18.99px;
   color: $text-col-3;
-  text-align: center;
-  position: relative;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.slider-container {
-  position: relative;
-
-  min-width: 320px;
-  max-width: 764px;
+  max-width: 146px;
   margin: 0 auto;
 }
 
-.slider-img__mob {
+.slider-title__hiden {
+  display: none;
+}
+
+.slider__btn-position {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 211px;
+}
+
+.slider__btn-left {
+  margin: 0 0 0 14px;
+  border: none;
+  background: $bg-grey;
+}
+
+.slider__btn-right {
+  margin: 0 14px 0 0;
+  border: none;
+  background: $bg-grey;
+}
+
+.slider__position {
+  width: 100%;
+}
+
+.slider__btn-img--list {
+  display: none;
+}
+
+.slider__btn-img__global-active {
+}
+
+.slider__btn-img {
+}
+
+.slider__btn-img {
+}
+
+.slider__container {
+  min-width: 320px;
+  max-width: 767px;
+  margin: 0 auto;
+}
+
+.slider-container__wrap-first-slide {
+  overflow: hidden;
+  height: 470px;
+  margin: 0 auto;
+  max-width: 767px;
+  position: relative;
+}
+
+.slider-container__wrap-centrovjik {
   position: absolute;
-  content: "";
-  max-width: 320px;
-  max-height: 497px;
-  top: 240px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  z-index: 0;
+  margin: 0 auto;
+  height: 470px;
+  width: 695px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-48%);
+}
+
+.slider-img__mob {
+  height: 470px;
+  width: 100%;
+}
+
+.wrap-second-slide__hiden {
+  display: none;
+}
+
+.wrap-third-slide__hiden {
+  display: none;
 }
 
 .slider-img__tab {
   display: none;
 }
 
-.slider__container {
-  min-width: 320px;
-  max-width: 767px;
-  margin: 0;
-  padding: 0;
+.slider-img__desk {
+  display: none;
 }
 
-.slider__btn-left {
-  border: none;
-  position: absolute;
-  top: 737px;
-  left: 14px;
-  margin: 0;
-  padding: 0;
-  background-color: $bg-grey;
-  border-radius: 100%;
-}
+// .page-main {
+//   min-width: 320px;
+//   max-width: 767px;
+//   margin: 0 auto;
+//   background-image: url(../../img/png/leaf-mint/leaf-Mint-2.png);
+//   background-repeat: no-repeat;
+//   background-position: center 122px;
+//   background-size: 375.57px 298.57px;
+//   background-color: $bg-grey;
+// }
 
-.slider__btn-right {
-  border: none;
-  position: absolute;
-  top: 737px;
-  right: 14px;
-  margin: 0;
-  padding: 0;
-  background-color: $bg-grey;
-  border-radius: 100%;
-}
+// .page-main__healthy-food {
+//   padding: 53px 14px 0 14px;
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   flex-wrap: wrap;
+// }
+
+// .healthy-food {
+//   padding: 55px 14px 0 14px;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   position: relative;
+// }
+
+// .healthy-food__title {
+//   font-family: "Lato", "Arial", "sans-serif";
+//   font-style: normal;
+//   font-weight: bold;
+//   font-size: 25px;
+//   line-height: 26, 37px;
+//   color: $text-col-3;
+//   text-align: center;
+//   margin: 0;
+//   padding: 0;
+//   max-width: 264px;
+// }
+
+// .healthy-food__description {
+//   font-family: "Lato", "Arial", "sans-serif";
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 16px;
+//   line-height: 22.4px;
+//   color: $text-col-3;
+//   text-align: center;
+//   margin: 23px 0 0 0;
+//   padding: 0;
+//   max-width: 260px;
+//   position: relative;
+// }
+
+// .healthy-food__btn {
+//   margin: 36px auto 0 auto;
+
+//   &::before {
+//     position: absolute;
+//     content: "";
+//     background: url("../../img/svg/arrow-right-mob.svg") no-repeat center center;
+//     width: 43px;
+//     height: 43px;
+//     right: 33px;
+//     top: 222.5px;
+//     background-color: $bg-green-1;
+//     border-radius: 100%;
+//   }
+// }
+
+// .healthy-food__slider {
+//   margin: 99px 0 0 0;
+//   min-height: 540px;
+// }
+
+// .slider-title {
+//   font-family: "Lato", "Arial", "sans-serif";
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 18.99px;
+//   color: $text-col-3;
+//   text-align: center;
+//   position: relative;
+//   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+// }
+
+// .slider-title__hiden {
+//   display: none;
+// }
+
+// .slider__btn-img--list {
+//   display: none;
+//   }
+
+// .slider-container {
+//   overflow: hidden;
+//   position: relative;
+
+//   min-width: 320px;
+//   max-width: 764px;
+//   margin: 0 auto;
+// }
+
+// .slider-container__wrap-first-slide {
+//   height: 470px;
+//   overflow: hidden;
+//   position: relative;
+//   width: 695px;
+// }
+
+// .wrap-second-slide__hiden {
+//   display: none;
+// }
+
+// .wrap-third-slide__hiden {
+// display: none;
+// }
+
+// .slider-container__wrap-centrovjik {
+//   position: absolute;
+//   margin: 0 auto;
+//   height: 470px;
+//   width: 695px;
+//   top: 0;
+//   left: 50%;
+//   transform: translateX(-48.3%);
+// }
+
+// .slider-img__mob {
+//   width: 100%;
+//   height: 470px;
+//   margin: 0 auto;
+//   z-index: 0;
+// }
+
+// .slider-img__tab {
+//   display: none;
+// }
+
+// .slider-img__desk {
+//   display: none;
+// }
+
+// .slider__container {
+//   min-width: 320px;
+//   max-width: 767px;
+//   margin: 0;
+//   padding: 0;
+// }
+
+// .slider__btn-left {
+//   border: none;
+//   position: absolute;
+//   top: 737px;
+//   left: 14px;
+//   margin: 0;
+//   padding: 0;
+//   background-color: $bg-grey;
+//   border-radius: 100%;
+// }
+
+// .slider__btn-right {
+//   border: none;
+//   position: absolute;
+//   top: 737px;
+//   right: 14px;
+//   margin: 0;
+//   padding: 0;
+//   background-color: $bg-grey;
+//   border-radius: 100%;
+// }
 
 .benefits-wrap {
   min-width: 320px;
@@ -236,6 +437,10 @@
 }
 
 .performance-nutritionist__img_tab {
+  display: none;
+}
+
+.performance-nutritionist__img_desk {
   display: none;
 }
 
@@ -367,6 +572,7 @@
   height: 586px;
   position: relative;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .shipping-benefits_container-img_wrap {
@@ -605,20 +811,23 @@
     max-width: 1923px;
     margin: 0 auto;
     background-image: none;
-    background-color: $bg-grey;
+    background-color: transparent;
   }
 
   .page-main__healthy-food {
-    padding: 53px 111px 0 111px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 100%;
+    background-image: none;
+    background-color: none;
   }
 
   .healthy-food {
-    padding: 55px 0 0 0;
-    display: flex;
-    flex-direction: column;
+    padding: 112px 0 0 0;
+    max-width: 100%;
     align-items: center;
     position: relative;
   }
@@ -631,7 +840,7 @@
     line-height: 33.76px;
     color: $text-col-3;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     max-width: 324px;
   }
@@ -644,14 +853,14 @@
     line-height: 25.2px;
     color: $text-col-3;
     text-align: center;
-    margin: 29px 0 0 0;
+    margin: 29px auto 0 auto;
     padding: 0;
     max-width: 260px;
-    position: relative;
   }
 
   .healthy-food__btn {
-    margin: 52px auto 0 auto;
+    margin: 54px auto 0 auto;
+    position: relative;
 
     &::before {
       position: absolute;
@@ -660,25 +869,48 @@
         center;
       width: 43px;
       height: 43px;
-      right: 50px;
-      top: 260.5px;
+      right: 11px;
+      top: 6.5px;
       background-color: $bg-green-1;
       border-radius: 100%;
     }
   }
 
   .healthy-food__slider {
-    margin: 99px 0 0 0;
-    min-height: 660px;
+    margin: 0px 0 0 0;
+    padding: 70px 0 0 0;
   }
 
   .slider-title {
     display: none;
   }
+
   .slider-container {
     min-width: 768px;
     max-width: 1923px;
     margin: 0 auto;
+    position: relative;
+    min-height: 660px;
+  }
+
+  .slider-container__wrap-first-slide {
+    height: 587px;
+    max-width: 1020px;
+    overflow: hidden;
+    position: relative;
+    // top: -806px;
+    // left: -266px;
+    // z-index: 1;
+  }
+
+  .slider-container__wrap-centrovjik {
+    position: absolute;
+    margin: 0 auto;
+    height: 587px;
+    width: 834px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-34%);
   }
 
   .slider-img__mob {
@@ -688,9 +920,14 @@
   .slider-img__tab {
     display: block;
     width: 100%;
-    height: auto;
+    height: 587px;
+
     margin: auto;
     z-index: 0;
+  }
+
+  .slider-img__desk {
+    display: none;
   }
 
   .slider__container {
@@ -706,6 +943,71 @@
 
   .slider__btn-right {
     display: none;
+  }
+
+  .slider__position {
+    width: 100%;
+  }
+
+  .slider__btn-img--list {
+    display: inline-block;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 628px;
+    left: 50%;
+    transform: translateX(-135%);
+    align-items: flex-start;
+    z-index: 100;
+    width: 200px;
+  }
+
+  .slider__btn-img__global-active {
+    border: none;
+    background-color: $bg-grey;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: $text-col-3;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 51px;
+      height: 51px;
+      background: url(./../img/svg/tab-btn-active.svg) no-repeat;
+      top: -11px;
+      right: -10px;
+    }
+  }
+
+  .slider__btn-img {
+    margin: 140px 0 0 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font-family: "Lato", "Arial", "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: $text-col-5;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 29px;
+      height: 29px;
+      background: url(./../../img/svg/tab-btn-opacity.svg) no-repeat;
+      top: -4px;
+      right: -43px;
+    }
   }
 
   .benefits-wrap {
@@ -1029,7 +1331,7 @@
 
   .page-main__instagram-preview {
     max-width: 1923px;
-    min-height: 1000px;
+    min-height: 624px;
     margin: 0 auto;
     text-align: center;
     // position: relative;
@@ -1180,106 +1482,129 @@
 @media (min-width: 1924px) {
   .page-main {
     min-width: 1924px;
+    max-width: 1924px;
+    margin: 0 auto;
+  }
+  .page-main__healthy-food {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 0 0 0 383px;
+    min-width: 1924px;
     max-width: 3480px;
     margin: 0 auto;
-    background-image: none;
-    background-color: $bg-grey;
   }
-
-  .page-main__healthy-food {
-    max-width: 1924px;
-    padding: 0 604px 0 390px;
-    display: block;
-    align-items: center;
-    background-color: $bg-grey;
-    margin: 0 auto;
-
-  }
-
   .healthy-food {
     padding: 293px 0 0 0;
-    display: block;
-    background-color: $bg-grey;
-    position: relative;
   }
 
   .healthy-food__title {
+    width: 496px;
+    max-width: 496px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
     font-family: "Lato", "Arial", "sans-serif";
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 52.75px;
     color: $text-col-3;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-    max-width: 504px;
   }
 
   .healthy-food__description {
+    margin: 29px 0 49px 0;
+    padding: 0;
+    text-align: left;
     font-family: "Lato", "Arial", "sans-serif";
     font-style: normal;
     font-weight: 500;
     font-size: 23px;
     line-height: 32.2px;
     color: $text-col-3;
-    text-align: left;
-    margin: 43px 0 0 0;
-    padding: 0;
-    max-width: 350px;
-    position: relative;
+    width: 332px;
+    max-width: 332px;
   }
 
   .healthy-food__btn {
-    margin: 52px auto 0 0;
-    position: relative;
-
-    &::before {
-      position: absolute;
-      content: "";
-      background: url("../../img/svg/arrow-right-mob.svg") no-repeat center
-        center;
-      width: 43px;
-      height: 43px;
-      right: 9px;
-      top: 5px;
-      background-color: $bg-green-1;
-      border-radius: 100%;
-    }
+    margin: 0 0 0 0;
   }
 
   .healthy-food__slider {
-    margin: 99px 0 0 0;
-    min-height: 318px;
-  }
-
-  .slider-title {
     display: none;
   }
-  .slider-container {
-    min-width: 1924px;
-    max-width: 3480px;
-    margin: 0 auto;
-    height: 0px;
+
+  .slider__position {
+    overflow: hidden;
   }
 
-  .slider-container__wrap {
-    height: 1056px;
+  .slider__btn-img--list {
+    display: inline-block;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 339px;
+    left: 50%;
+    transform: translateX(-6%);
+    align-items: flex-start;
+    z-index: 100;
+    width: 200px;
+  }
+
+  .slider__btn-img__global-active {
+    &::after {
+      content: "";
+      position: absolute;
+      width: 51px;
+      height: 51px;
+      background: url(./../img/svg/tab-btn-active.svg) no-repeat;
+      top: -11px;
+      right: -19px;
+    }
+  }
+
+  .slider__btn-img {
+    &::after {
+      content: "";
+      position: absolute;
+      width: 29px;
+      height: 29px;
+      background: url(./../../img/svg/tab-btn-opacity.svg) no-repeat;
+      top: -3px;
+      right: -43px;
+    }
+  }
+
+  .slider-container {
+    margin: 0;
+    padding: 138px 0 120px 0;
+    max-width: 1077px;
+    min-width: 1077px;
+  }
+
+  .slider-container__wrap-first-slide {
+    height: 757px;
+    max-width: 1077px;
     overflow: hidden;
     position: relative;
-    top: -806px;
-    left: -266px;
-    z-index: 1;
+    // top: -806px;
+    // left: -266px;
+    // z-index: 1;
+    margin: 0;
   }
 
   .slider-container__wrap-centrovjik {
     position: absolute;
     margin: 0 auto;
-    height: 1056px;
-    width: 1796px;
+    height: 757px;
+    width: 1077px;
     top: 0;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-53%);
   }
 
   .slider-img__mob {
@@ -1291,46 +1616,21 @@
   }
 
   .slider-img__desk {
-    // display: bock;
-    // position: absolute;
-    // width: 1796px;
-    // height: 1056px;
-    // top: -812px;
-    // left: -200px;
-    // z-index: 0;
-
-    position: absolute;
-    margin: 0 auto;
-    height: 1056px;
-    width: 1796px;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .slider__container {
-    min-width: 1924px;
-    max-width: 3480px;
+    display: block;
+    width: 100%;
     margin: 0;
     padding: 0;
-  }
-
-  .slider__btn-left {
-    display: none;
-  }
-
-  .slider__btn-right {
-    display: none;
+    height: 757px;
   }
 
   .benefits-wrap {
     min-width: 1924px;
     max-width: 3480px;
     min-height: 378px;
-
     margin: 0 auto;
     background-color: $bg-green;
   }
+
   .benefits-wrap__center {
     max-width: 1700px;
     margin: 0 auto;
@@ -1599,6 +1899,7 @@
     height: 900px;
     position: relative;
     margin: 0 auto;
+    overflow: visible;
   }
 
   .shipping-benefits_container-img_wrap {
@@ -1697,27 +1998,29 @@
   }
 
   .page-main__instagram-preview {
-    min-width: 1972px;
+    min-width: 1924px;
     min-height: 1144px;
     margin: 0 auto;
     text-align: center;
+    overflow: hidden;
   }
 
   .probnik {
-    max-width: 1972px;
+    overflow: hidden;
+    max-width: 1924px;
     height: 1144px;
     margin: 0 auto 0 auto;
-    overflow: hidden;
   }
 
   .example {
     position: absolute;
     margin: 0 auto;
     height: 1144px;
-    width: 1972px;
+    width: 1924px;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    overflow: hidden;
   }
 
   .instagram-preview__img_mob {

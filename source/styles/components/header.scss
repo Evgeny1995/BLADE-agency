@@ -1,7 +1,12 @@
+
+
 .page {
   background-color: $bg-grey;
 
 }
+
+
+
 
 .page-header {
   min-width: 320px;
@@ -63,11 +68,23 @@
 }
 
 @media (min-width: 768px) {
+  .page-bg {
+    background-image: url(./../../img/png/Group-bg.png);
+    background-repeat: no-repeat;
+    // background-position: -652px -51px;
+    background-position: center top;
+    background-color: $bg-grey;
+  }
+
+  .page {
+    background-color: transparent;
+  }
 
   .page-header {
     min-width: 768px;
     max-width: 1924px;
     margin: 0 auto;
+    background-color: transparent;
   }
 
   .header-wrap {
@@ -76,16 +93,16 @@
     display: flex;
     justify-content: space-between;
 
-    &::before {
-      position: absolute;
-      content: "";
-      background: url("../../img/png/img-bg-tab.png") no-repeat center center;
-      width: 1924px;
-      height: 731px;
-      right: -578px;
-      top: 0px;
-      z-index: 0;
-    }
+    // &::before {
+    //   position: absolute;
+    //   content: "";
+    //   background: url("../../img/png/img-bg-tab.png") no-repeat center center;
+    //   width: 1924px;
+    //   height: 731px;
+    //   right: -578px;
+    //   top: 0px;
+    //   z-index: 0;
+    // }
   }
 
   .logotype {
@@ -139,6 +156,15 @@
 }
 
 @media (min-width: 1924px) {
+  .page-bg {
+    background-image: url(./../../img/png/Group-bg-desk.png);
+    background-repeat: no-repeat;
+    // background-position: -652px -51px;
+    background-position: center top;
+    background-size: contain;
+    background-color: $bg-grey;
+  }
+
   .page-header {
     min-width: 1924px;
     max-width: 3480px;
